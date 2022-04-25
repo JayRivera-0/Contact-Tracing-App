@@ -22,7 +22,7 @@ namespace Contact_Tracing_App
         private void saveBtn_Click(object sender, EventArgs e)
         {
             StreamWriter outputFile;
-            outputFile = File.AppendText("Informations from Contact Tracing App.txt");
+            outputFile = File.AppendText("ONE.txt");
             outputFile.WriteLine("=======",
                                             FNLabel.Text + " " + FirstNametxtbx.Text);
             outputFile.WriteLine(LNLabel.Text + " " + LastNametxtbx.Text);
